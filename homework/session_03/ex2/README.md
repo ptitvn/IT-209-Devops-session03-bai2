@@ -35,9 +35,15 @@ location = /404.html {
 | `curl -I http://160.187.229.76/404.html` | `HTTP/1.1 404 Not Found` (bị `internal` chặn truy cập trực tiếp) |
 
 ## Ảnh minh chứng
+![01_ssh_vao_vps_va_chay_setup.png](screenshots/01_ssh_vao_vps_va_chay_setup.png)
 1. `01_ssh_vao_vps_va_chay_setup.png` – SSH vào VPS Ubuntu 22.04
+![02_ket_qua_kiem_tra_tren_vps.png](screenshots/02_ket_qua_kiem_tra_tren_vps.png)
 2. `02_ket_qua_kiem_tra_tren_vps.png` – Kết quả `setup.sh` và kiểm tra `curl` trên VPS
+![03_nginx_t_sach_va_curl_localhost.png](screenshots/03_nginx_t_sach_va_curl_localhost.png)
 3. `03_nginx_t_sach_va_curl_localhost.png` – `nginx -t` không còn cảnh báo, `curl` đều trả về 404
-4. `04_curl_tu_may_ngoai_toi_IP_VPS.png` – `curl` từ máy cá nhân tới IP công khai của VPS
-5. `05_trang_404_tuy_bien.png` – Giao diện trang `404.html` (ảnh render từ file)
-6. `06_git_push_len_github.png` – Đẩy bài lên GitHub
+![04_curl_tu_may_ngoai_toi_IP_VPS.png](screenshots/04_curl_tu_may_ngoai_toi_IP_VPS.png)
+5. `04_curl_tu_may_ngoai_toi_IP_VPS.png` – `curl` từ máy cá nhân tới IP công khai của VPS
+![05_trang_404_tuy_bien.png](screenshots/05_trang_404_tuy_bien.png)
+6. `05_trang_404_tuy_bien.png` – Giao diện trang `404.html` (ảnh render từ file)
+![06_git_push_len_github.png](screenshots/06_git_push_len_github.png)
+7. `06_git_push_len_github.png` – Đẩy bài lên GitHub
